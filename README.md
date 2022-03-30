@@ -1,4 +1,10 @@
-# 1 简介
+![](images/head.png)
+
+![](https://img.shields.io/badge/build-passing-brightgreen) ![](https://img.shields.io/badge/ubuntu-18.04-blue) ![](https://img.shields.io/badge/windows-10-blue) ![](https://img.shields.io/badge/cmake-3.21-blue)
+
+
+
+# 1 概述
 
 muduo是基于Reactor模式的多线程C++网络库，采用非阻塞 IO 模型，基于事件驱动和回调，原生支持多核多线程，适合编写高性能 Linux 服务端多线程网络应用程序。通过源码阅读，梳理代码设计，不依赖于boost，实现muduo库的C++重构。  
 
